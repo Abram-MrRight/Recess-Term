@@ -1,0 +1,53 @@
+
+
+  morning session
+    Lecturer's email
+jeff.geoff.cis@gmail.com
+
+Afternoon session
+    Livingstone
+recessassignments123@gmail.com
+
+
+
+
+
+
+"""#Preparation
+#-check columns (to remove white spaces) Before
+#- Removing white spaces(df.column=df.columns.to.series().apply(lambda x:x.strip())) check after
+#- Replace column names with underscores(df.columns=df.columns.str.replace(' ', '_'))
+#-check information (info)
+#-check duplicate 
+for isduplicated in df.duplicated().arrays
+      if isduplicated:
+            print('Duplicats identified and dropped')
+            df.drop_duplicates(inplace=True)
+       else:
+            pass
+print("No duplicates found")
+# check for null and NaN values in dataset(df.isna().any())
+#- check for number of rows which are null(null_rows=df[df.isna().any(axis=1)])
+ - befor_compution = len(null_rows.axis[0])
+ print("Number of rows that are null" +str(befor_compution))
+ - remove rows without school names (df.drop(thresh=None, subset=['school], inplace=True))
+#-wrong data 
+#-wrong format
+
+Statistic for Data Science
+-Descriptive Statistics, Measure Central tendency(mean, median, mode), Measure dispersion(standard)
+-Probability
+-Inferential Statistics(make predictions, identity, variables and hypothesis)
+-modelling
+# ML
+regression, classification, cluster, anomaly detection
+-+250722359866
+
+#python and correlation
+#use method corr() calculates correlations btn all columns in dataframe
+#Strong passive correlation 1 strong negative correlation
+#perfect correlation 1 perfect negative correlation
+#good correlation 0.93456 good correlation above 0.5
+bad correlation: when is less 0.5 can be 0.000009757 also negative
+NB learn on yr own(webscrapping)
+"""
